@@ -1,0 +1,13 @@
+{
+    "name": "willi/aset-demo",
+    "description": "Development environment for the SET network",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William James",
+            "email": "williamjames.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
