@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/williamjames07/aset-demo/issues"
   },
-  "homepage": "https://github.com/williamjames07/aset-demo#readme"
+  "homepage": "https://github.com/williamjames07/aset-demo#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-nunjucks-render": "^2.2.3"
+  }
 }
