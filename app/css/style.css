@@ -1,0 +1,17 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #333;
+}

@@ -2,20 +2,36 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>aset-demo</title>
 
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<!-- JS -->
-	<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/megamenu.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-
+	<!-- Modernizer -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script>
+		window.Modernizr || document.write('<script src="js/vendor/modernizr-2.8.3.min.js"><\/script>')
+	</script>
 </head>
 <body>
 
 	{% block content %}
 	{% endblock %}
+
+	<!-- footer scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+	</script>
+
+	<!-- Megamenu + Boostrap -->
+	<script src="js/megamenu.js"></script>
 
 </body>
 </html>
